@@ -1,0 +1,15 @@
+{
+  "itemGroup.alchemined": "Example Mod Tab",
+  "block.alchemined.example_block": "Example Block",
+  "item.alchemined.example_item": "Example Item",
+
+  "alchemined.configuration.title": "Alchemined Configs",
+  "alchemined.configuration.section.alchemined.common.toml": "Alchemined Configs",
+  "alchemined.configuration.section.alchemined.common.toml.title": "Alchemined Configs",
+  "alchemined.configuration.items": "Item List",
+  "alchemined.configuration.logDirtBlock": "Log Dirt Block",
+  "alchemined.configuration.magicNumberIntroduction": "Magic Number Text",
+  "alchemined.configuration.magicNumber": "Magic Number",
+
+  "item.alchemined.test_item1": "Test Item 1"
+}
