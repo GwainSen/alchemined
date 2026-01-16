@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
 import net.gs.alchemined.item.ModItems;
-
+import net.gs.alchemined.block.ModBlocks;
 import net.gs.alchemined.item.ModCreativeModeTabs;
 
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -80,6 +80,8 @@ public class Alchemined {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

@@ -15,6 +15,10 @@
   
   "item.alchemined.test_item1": "Test Item 1",
   "item.alchemined.silver": "Silver",
-  "item.alchemined.electrum": "Electrum"
+  "item.alchemined.electrum": "Electrum",
+
+  "block.alchemined.electrum_block": "Electrum Block",
+  "block.alchemined.silver_block": "Silver Block",
+  "block.alchemined.silver_ore": "Silver Ore"
 
 }
