@@ -12,8 +12,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Alchemined.MODID);
 
-    public static final DeferredItem<Item> TEST_ITEM1 = ITEMS.registerItem("test_item1", Item::new);
-
     public static final DeferredItem<Item> I_SILVER = ITEMS.registerItem("silver", Item::new);
 
     public static final DeferredItem<Item> I_ELECTRUM= ITEMS.registerItem("electrum", Item::new);

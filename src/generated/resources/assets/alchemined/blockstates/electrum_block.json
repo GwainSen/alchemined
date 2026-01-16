@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemined:block/electrum_block"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+// 1.21.11	2026-01-17T16:47:35.3129909	Alchemined Recipes
+5b85ff60deee8782f446a8c1e614e044c6d7b903 data/alchemined/advancement/recipes/misc/electrum.json
+869d6f61606c52e8af5bfabe1e4d29f44111d50b data/alchemined/advancement/recipes/misc/electrum_block.json
+3c076fefd12193e030ff566ea1064159e04fda39 data/alchemined/advancement/recipes/misc/silver.json
+826ff2788610f8756164a148f8ba4e2b99251e0c data/alchemined/advancement/recipes/misc/silver_block.json
+4b7ebb7e00151dbfc809c9d9e589e5c2e509972b data/alchemined/recipe/electrum.json
+19b2c71426166e5d64843da18bed99f31ba2e7d4 data/alchemined/recipe/electrum_block.json
+a0278a33bac2f812bcd2ff25280f8553469b88ba data/alchemined/recipe/silver.json
+fbadc86df3b6af80069262c750423572b61e460e data/alchemined/recipe/silver_block.json

@@ -1,15 +1,8 @@
 package net.gs.alchemined.block;
 
-import java.util.function.Supplier;
-
 import net.gs.alchemined.Alchemined;
-import net.gs.alchemined.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.util.valueproviders.UniformInt;
-
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -44,5 +37,9 @@ public class ModBlocks {
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
+    }
+
+    public static DeferredBlock<Block> getB_ELECTRUM_BLOCK() {
+        return B_ELECTRUM_BLOCK;
     }
 }
