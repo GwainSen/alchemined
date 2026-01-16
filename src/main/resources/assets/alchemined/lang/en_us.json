@@ -11,5 +11,7 @@
   "alchemined.configuration.magicNumberIntroduction": "Magic Number Text",
   "alchemined.configuration.magicNumber": "Magic Number",
 
-  "item.alchemined.test_item1": "Test Item 1"
+  "item.alchemined.test_item1": "Test Item 1",
+  "item.alchemined.silver": "Silver",
+  "item.alchemined.electrum": "Electrum"
 }

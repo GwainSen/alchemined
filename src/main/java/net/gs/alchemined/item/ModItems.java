@@ -13,6 +13,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> TEST_ITEM1 = ITEMS.registerItem("test_item1", Item::new, new Item.Properties());
 
+    public static final DeferredItem<Item> I_SILVER = ITEMS.registerItem("silver", Item::new, new Item.Properties());
+
+    public static final DeferredItem<Item> I_ELECTRUM= ITEMS.registerItem("electrum", Item::new, new Item.Properties());
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
