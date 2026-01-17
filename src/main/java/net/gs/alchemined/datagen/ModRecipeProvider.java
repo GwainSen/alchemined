@@ -32,7 +32,7 @@ public class ModRecipeProvider  extends RecipeProvider {
             .unlockedBy("has_electrum_block", has(ModBlocks.B_ELECTRUM_BLOCK))
             .save(output);
         //silver block <- silver
-        shaped(RecipeCategory.MISC, ModBlocks.B_SILVER_BLOCK.get())s
+        shaped(RecipeCategory.MISC, ModBlocks.B_SILVER_BLOCK.get())
             .pattern("BBB")
             .pattern("BBB")
             .pattern("BBB")
