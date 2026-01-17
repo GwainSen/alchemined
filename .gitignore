@@ -26,3 +26,5 @@ run-data
 repo
 
 /.vscode
+src/generated/
+old_shit/
