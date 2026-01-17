@@ -28,6 +28,10 @@ public class ModCreativeModeTabs {
         .displayItems((parameters, output) -> {
             output.accept(ModItems.I_ELECTRUM);
             output.accept(ModItems.I_SILVER);
+            output.accept(ModItems.I_VIAL);
+            output.accept(ModItems.I_SILVER);
+            output.accept(ModItems.I_ELECTRUM_VIAL);
+            output.accept(ModItems.I_SILVER_VIAL);
             //blocks
             output.accept(ModItems.I_SILVER_ORE);
             output.accept(ModItems.I_SILVER_BLOCK);

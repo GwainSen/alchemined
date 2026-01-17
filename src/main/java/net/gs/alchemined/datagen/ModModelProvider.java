@@ -25,6 +25,9 @@ public class ModModelProvider extends ModelProvider{
         //Flat Items
         itemModels.generateFlatItem(ModItems.I_SILVER.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.I_ELECTRUM.get(), ModelTemplates.FLAT_ITEM);
+            itemModels.generateFlatItem(ModItems.I_SILVER_VIAL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.I_ELECTRUM_VIAL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.I_VIAL.get(), ModelTemplates.FLAT_ITEM);   
 
         //Block Items
         blockModels.createTrivialCube(ModBlocks.B_SILVER_ORE.get());
@@ -35,11 +38,11 @@ public class ModModelProvider extends ModelProvider{
 
     @Override
     protected Stream<? extends Holder<Block>> getKnownBlocks() {
-        return ModBlocks.BLOCKS.getEntries().stream(); //.filter();
+        return ModBlocks.BLOCKS.getEntries().stream(); //.filter(); //special type blocks
     }
 
     @Override
     protected Stream<? extends Holder<Item>> getKnownItems() {
-        return ModItems.ITEMS.getEntries().stream(); //.filter();
+        return ModItems.ITEMS.getEntries().stream(); //.filter(); //special type items
     }
 }

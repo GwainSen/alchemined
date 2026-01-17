@@ -9,6 +9,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 
 public class ModRecipeProvider  extends RecipeProvider {
     public ModRecipeProvider(HolderLookup.Provider provider, RecipeOutput recipeOutput) {
@@ -43,6 +44,17 @@ public class ModRecipeProvider  extends RecipeProvider {
         shapeless(RecipeCategory.MISC, ModItems.I_SILVER.get(), 9)
             .requires(ModBlocks.B_SILVER_BLOCK)
             .unlockedBy("has_silver_block", has(ModBlocks.B_SILVER_BLOCK))
+            .save(output);
+
+        //vial
+        shaped(RecipeCategory.MISC,ModItems.I_VIAL.get(), 8)
+            .pattern("W")
+            .pattern("G")
+            .pattern("G")
+            .define('G', Items.GLASS)
+            .define('W', Items.OAK_WOOD)
+            .unlockedBy("has_wood", has(Items.OAK_WOOD)) //change later to use other woods and wood type
+            .unlockedBy("has_glass", has(Items.GLASS))
             .save(output);
     }
 
